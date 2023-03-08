@@ -1,4 +1,112 @@
-.contain {
-    background-color: #3b5998;
-    height: 100%;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+.section-1{
+    background-color: rgb(240, 242, 245);
+    font-family: sans-serif;
+    padding: 123px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.facebook{
+    color: rgb(24, 119, 242);
+    font-weight: bold;
+    font-size: 50px;
+}
+.details {
+    font-size: 30px;
+}
+.section-2 {
+    border: none;
+    background-color: #FFFFFF;
+    width: 350px;
+    padding: 18px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2 input {
+    margin-top: 20px;
+    border-color: rgb(27, 116, 228);
+    border-radius: 5px;
+    width: 300px;
+    padding: 18px;
+}
+.login button {
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    width: 287px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.pass {
+    margin-top: 20px;
+    color: rgb(24, 161, 246);
+}
+.create button {
+    background-color: rgb(66, 183, 42);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 25px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*.section-2{
+    border: none;
+    background-color: #FFFFFF;
+    width: 350px;
+    padding: 18px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2 form {
+    border-color: rgb(27, 116, 228);
+    border-radius: 5px;
+    width: 250px;
+    padding: 18px;
+}
+.login button {
+    border: none;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    width: 287px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center; 
+}
+.pass {
+    color: rgb(24, 161, 246);
+}
+.create input {
+    border: none;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFFFF;
+    background-color: rgb(66, 183, 42);
+}/*
+ 
